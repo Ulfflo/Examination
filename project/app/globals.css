@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .text-shadow-custom {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  .text-shadow-custom-blur {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); 
+  }
+};
+
+
